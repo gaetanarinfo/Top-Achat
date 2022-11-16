@@ -1,0 +1,37 @@
+{
+  "name": "org.top.achat.app",
+  "displayName": "Top achat",
+  "version": "",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^10.1.2",
+    "cordova-plugin-inappbrowser": "^5.0.0",
+    "cordova-plugin-proguard": "^2.2.0",
+    "wonderpush-cordova-sdk": "^3.2.3"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-proguard": {},
+      "wonderpush-cordova-sdk": {
+        "CLIENT_ID": "c647138afe18b9e0cee65113837ca3d6738d6bd1",
+        "CLIENT_SECRET": "cd2bab946bfa504aaf272b57abe30d8e31225dec9cad5543d16930dff97f7056",
+        "LOGGING": "false",
+        "AUTO_INIT": "true",
+        "REQUIRES_USER_CONSENT": "false"
+      }
+    }
+  }
+}
