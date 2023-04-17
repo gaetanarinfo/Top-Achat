@@ -102,6 +102,7 @@ body.body--dark .configo-link__image--text {
 .avatar_user {
   height: 28px;
   width: 28px;
+  border-radius: 50%;
 }
 
 .w-100 {
@@ -342,19 +343,6 @@ body.body--dark .header-logo__image[data-v-55ce9e0f] {
 .header-logo__image[data-v-55ce9e0f] {
   fill: #287ab8;
   display: block;
-}
-
-// Black Friday
-.header-logo:after {
-  content: "";
-  position: absolute;
-  background: url('https://www.topachat.com/_nuxt/img/icon-beta_bf-2022.92f6832.svg');
-  display: block;
-  width: 70px;
-  height: 14px;
-  right: 0;
-  margin-top: -2px;
-  background-repeat: no-repeat;
 }
 
 #loaderForm {

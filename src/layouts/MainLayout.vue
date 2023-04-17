@@ -1,5 +1,4 @@
 <template>
-
   <q-layout view="lHh Lpr lFf">
 
     <q-header elevated>
@@ -8,7 +7,7 @@
 
         <q-btn flat dense round icon="menu" color="grey" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-item style="width: 170px" to="/" aria-label="Topachat - L'épicier du geek depuis 1999"
+        <q-item style="width: 170px;top: 4px;" to="/" aria-label="Topachat - L'épicier du geek depuis 1999"
           class="header-main__logo router-link-exact-active router-link-active" data-v-15348038="" aria-current="page">
           <div width="120" height="40" class="header-logo header-main__logo-img" data-v-55ce9e0f="" data-v-15348038="">
             <svg fill="none" version="1.1" viewBox="0 0 191.73 40.154" class="header-logo__image" data-v-55ce9e0f="">
@@ -47,7 +46,7 @@
 
         <q-btn flat round dense class="q-mr-xs q-mr-sm">
           <div class="avatar_user_div">
-            <img src="https://www.topachat.com/img/default/avatar.png" class="avatar_user" />
+            <img src="https://media.topachat.com/media/s200/64132c088b47ab4260020cca.webp" class="avatar_user" />
           </div>
 
           <q-menu fit anchor="bottom left" class="menu" self="top start">
@@ -106,14 +105,13 @@
 
       <q-item tag="a" class="flex flex-center" target="_blank"
         href="https://www.paypal.com/donate/?hosted_button_id=QAG9CSP3BQ9NU">
-        <q-img style="max-width: 80px;width: 80px;height: auto;"
-          src="http://api-top-achat.fun:5000/img/logo-paypal-1.png" />
+        <q-img style="max-width: 80px;width: 80px;height: auto;" src="http://31.33.145.219:5000/img/logo-paypal-1.png" />
       </q-item>
 
       <q-item class="q-pa-none q-mt-md q-ma-none text-center q-mb-sm"
         style="display: block;min-height: auto;font-weight: 700">
         Version {{ replaceGuillemet(params.appVersion) }} - <span style="text-transform:capitalize;">{{
-            platform.platform
+          platform.platform
         }}</span>
       </q-item>
 
@@ -262,7 +260,6 @@
     </q-card>
 
   </q-dialog>
-
 </template>
 
 <script>
